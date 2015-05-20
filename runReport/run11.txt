@@ -1,1 +1,103 @@
 Runing fr.unice.polytech.ogl.championships.Week11
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OGL :: 2015 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ ogl-2015 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ ogl-2015 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:compile (default) @ ogl-2015 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ ogl-2015 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/user/ogl-2015-master/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ ogl-2015 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:testCompile (default) @ ogl-2015 ---
+[WARNING] No source files found.
+[INFO] 
+[INFO] <<< scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 <<<
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 ---
+08:07:39 INFO  Island/Mesh   [MeshBuilder] Generating Voronoi diagram
+08:07:39 INFO  Island/Mesh   [MeshBuilder] Building polygons
+08:07:40 INFO  Island/Mesh   [MeshBuilder] Building VertexRegistry
+08:07:40 INFO  Island/Mesh   [MeshBuilder] Building EdgeRegistry
+08:07:40 INFO  Island/Mesh   [MeshBuilder] Building Face Registry
+08:07:40 INFO  Island/Mesh   [MeshBuilder] Building Delaunay triangulation for neighborhood
+08:07:40 INFO  Island/Mesh   [MeshBuilder] Processing the Delaunay triangulation (2373 triangles)
+08:07:41 INFO  Island/Mesh   [MeshBuilder] Updating the FaceRegistry with the neighborhood relation
+08:07:45 INFO  Island/Board  [GameBoardBuilder] Starting GameBoard building process
+08:07:45 INFO  Island/Board  [GameBoardBuilder] Binding faces to game tiles
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Processing biomes associated to each tiles
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Processing resources produced by the biomes
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Processing altitudes associated to tiles
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Processing altitudes associated to tiles
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Instantiating the GameBoard
+08:07:47 INFO  Island/Board  [GameBoardBuilder] Introducing Points of Interest
+08:07:47 INFO  Island/Board  [GameBoardBuilder] GameBoard building process ended
+
+# Island global statistics
+  - % of map occupied by lakes      => 0,90
+  - % of map occupied by lands      => 34,82
+  - % of map occupied by the ocean  => 64,28
+  - Area occupied by lakes (ha)     => 89,56
+  - Area occupied by lands (ha)     => 3481,98
+  - Area occupied by the ocean (ha) => 6428,47
+  - Face area (ha) [avg]            => 8,33
+  - Land elevation (m) [avg]        => 29,20
+  - Land elevation (m) [max]        => 141,80
+  - Land elevation (m) [min]        => 0,00
+  - Map area (ha)                   => 10000,00
+  - Pitch for lands (%) [avg]       => 3,48
+  - Pitch for lands (%) [min]       => 0,17
+  - Pitch for lands (%) ]max]       => 9,02
+
+## Resources amounts
+  - FISH       => 237746
+  - WOOD       => 51398
+  - SUGAR_CANE => 14975
+  - FRUITS     => 3180
+  - FLOWER     => 918
+  - QUARTZ     => 536
+
+## Point of Interests available
+  - (35,20): Set(Creek(ba2a1c3a-a701-4052-a852-ba4ec0acffe9,Some(Point(350.4732921570941,209.9812405462613))))
+  - (84,51): Set(Creek(e0ee3368-5182-42e5-8070-21b2f9897a40,Some(Point(845.0005663634231,511.45119753607906))))
+  - (29,23): Set(Creek(98e902c0-f85a-4c8f-9105-c42e1d473b2e,Some(Point(292.38548767275995,235.37653744963814))))
+  - (39,82): Set(Creek(cfafa60e-82b0-41f0-a83f-8ab4a19713ec,Some(Point(396.3958962112837,828.0274465439015))))
+  - (17,44): Set(Creek(400ebf71-323c-4062-bbb7-abc0003b7d64,Some(Point(172.79785245991184,446.68603492672565))))
+  - (25,25): Set(Creek(88740ece-1a2f-4403-9d86-9101007ab786,Some(Point(259.38641816551785,258.34216130626555))))
+  - (15,54): Set(Creek(0a984502-8149-44e9-b268-54ba5061d00a,Some(Point(156.48072035321823,549.9172275204603))))
+  - (19,63): Set(Creek(9ed4c709-a6d6-4b87-acfd-34716ae11540,Some(Point(198.3134001707104,630.8667900941372))))
+  - (66,20): Set(Creek(a4467b3d-0977-4f3b-8837-7f7e6826334d,Some(Point(662.130095645245,203.46402627647436))))
+  - (50,84): Set(Creek(b4079271-db51-440f-b5af-4bd2ad61c3df,Some(Point(500.1963094013878,848.6519425900024))))
+
+## Running championship with the following players
+  - ISLAC
+
+# Successful simulations
+
+## Playing bot delivered by ISLAC
+  - Remaining budget: 134
+  - Used men: 2
+  - Collected resources:
+    - WOOD: 385
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 11.669s
+[INFO] Finished at: Sun May 10 08:07:48 CEST 2015
+[INFO] Final Memory: 11M/172M
+[INFO] ------------------------------------------------------------------------

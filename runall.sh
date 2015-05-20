@@ -1,9 +1,7 @@
 #!/bin/bash
 
-
-
-START=10
-END=18
+START=12
+END=20
 
 for (( c=$START; c<=$END; c++ ))
 do

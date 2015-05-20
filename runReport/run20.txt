@@ -1,0 +1,122 @@
+Runing fr.unice.polytech.ogl.championships.Week20
+[INFO] Scanning for projects...
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building OGL :: 2015 1.0-SNAPSHOT
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] >>> scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 >>>
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:resources (default-resources) @ ogl-2015 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] Copying 1 resource
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:compile (default-compile) @ ogl-2015 ---
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:compile (default) @ ogl-2015 ---
+Downloading: http://oss.sonatype.org/content/repositories/releases/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo1.maven.org/maven2/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://dl.bintray.com/scalaz/releases/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: https://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml
+773/773 B   773/773 B   773/773 B   773/773 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml (773 B at 0.4 KB/sec)
+                        Downloaded: http://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island-player/1.0-SNAPSHOT/maven-metadata.xml (773 B at 0.3 KB/sec)
+Downloading: http://oss.sonatype.org/content/repositories/releases/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://repo1.maven.org/maven2/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml
+Downloading: http://dl.bintray.com/scalaz/releases/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml
+                        Downloading: https://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml
+                                                594/594 B                           Downloaded: https://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml (594 B at 1.3 KB/sec)
+594/594 B               Downloaded: http://oss.sonatype.org/content/repositories/snapshots/eu/ace-design/island/1.0-SNAPSHOT/maven-metadata.xml (594 B at 0.4 KB/sec)
+[INFO] Nothing to compile - all classes are up to date
+[INFO] 
+[INFO] --- maven-resources-plugin:2.3:testResources (default-testResources) @ ogl-2015 ---
+[INFO] Using 'UTF-8' encoding to copy filtered resources.
+[INFO] skip non existing resourceDirectory /home/user/ogl-2015-master/src/test/resources
+[INFO] 
+[INFO] --- maven-compiler-plugin:2.0.2:testCompile (default-testCompile) @ ogl-2015 ---
+[INFO] No sources to compile
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:testCompile (default) @ ogl-2015 ---
+[WARNING] No source files found.
+[INFO] 
+[INFO] <<< scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 <<<
+[INFO] 
+[INFO] --- scala-maven-plugin:3.1.3:run (default-cli) @ ogl-2015 ---
+00:00:06 INFO  Island/Mesh   [MeshBuilder] Generating Voronoi diagram
+00:00:06 INFO  Island/Mesh   [MeshBuilder] Building polygons
+00:00:06 INFO  Island/Mesh   [MeshBuilder] Building VertexRegistry
+00:00:06 INFO  Island/Mesh   [MeshBuilder] Building EdgeRegistry
+00:00:06 INFO  Island/Mesh   [MeshBuilder] Building Face Registry
+00:00:07 INFO  Island/Mesh   [MeshBuilder] Building Delaunay triangulation for neighborhood
+00:00:07 INFO  Island/Mesh   [MeshBuilder] Processing the Delaunay triangulation (5961 triangles)
+00:00:09 INFO  Island/Mesh   [MeshBuilder] Updating the FaceRegistry with the neighborhood relation
+00:00:19 INFO  Island/Board  [GameBoardBuilder] Starting GameBoard building process
+00:00:19 INFO  Island/Board  [GameBoardBuilder] Binding faces to game tiles
+00:00:24 INFO  Island/Board  [GameBoardBuilder] Processing biomes associated to each tiles
+00:00:24 INFO  Island/Board  [GameBoardBuilder] Processing resources produced by the biomes
+00:00:24 INFO  Island/Board  [GameBoardBuilder] Processing altitudes associated to tiles
+00:00:25 INFO  Island/Board  [GameBoardBuilder] Processing altitudes associated to tiles
+00:00:25 INFO  Island/Board  [GameBoardBuilder] Instantiating the GameBoard
+00:00:25 INFO  Island/Board  [GameBoardBuilder] Introducing Points of Interest
+00:00:25 INFO  Island/Board  [GameBoardBuilder] GameBoard building process ended
+
+# Island global statistics
+  - % of map occupied by lakes      => 0,00
+  - % of map occupied by lands      => 45,91
+  - % of map occupied by the ocean  => 54,09
+  - Area occupied by lakes (ha)     => 0,00
+  - Area occupied by lands (ha)     => 11752,02
+  - Area occupied by the ocean (ha) => 13847,98
+  - Face area (ha) [avg]            => 8,53
+  - Land elevation (m) [avg]        => 48,00
+  - Land elevation (m) [max]        => 499,05
+  - Land elevation (m) [min]        => 0,00
+  - Map area (ha)                   => 25600,00
+  - Pitch for lands (%) [avg]       => 4,68
+  - Pitch for lands (%) [min]       => 0,00
+  - Pitch for lands (%) ]max]       => 74,19
+
+## Resources amounts
+  - FISH       => 501624
+  - WOOD       => 190843
+  - FUR        => 32124
+  - QUARTZ     => 1674
+
+## Point of Interests available
+  - (143,111): Set(Creek(259d47c9-b308-4fb8-ab76-8c1ce226352e,Some(Point(1436.941109341183,1119.2272836775096))))
+  - (144,64): Set(Creek(c8c23ecf-7e01-48bb-9516-e180abad6339,Some(Point(1448.9134953178905,648.1825623487948))))
+  - (98,120): Set(Creek(a8ad79e4-5348-44d5-9b98-7761f0398932,Some(Point(982.4402004518043,1202.5028675480783))))
+  - (48,45): Set(Creek(4e1db788-a6bb-4b4b-8402-8122fda0c1ba,Some(Point(485.1831225431262,451.8315229290826))))
+  - (141,114): Set(Creek(5b2216a8-c57e-45d4-8794-e3c380b7f48e,Some(Point(1417.3605806532437,1147.9102746726933))))
+  - (145,44): Set(Creek(f66bdae5-da22-420d-bac8-75959483dff9,Some(Point(1453.1607046205568,447.91544142194675))))
+  - (53,73): Set(Creek(95285e31-a096-4916-bab8-6663b3d1860f,Some(Point(532.9562450634774,732.1875763725399))))
+  - (129,120): Set(Creek(16da5637-91b1-4aaa-bfb5-427e0abd30f2,Some(Point(1297.1968387891352,1206.0090246573793))))
+  - (26,54): Set(Creek(1718a56d-db18-4461-bc45-b43c1e2f7c95,Some(Point(264.98512462089866,549.9699001185636))))
+  - (142,112): Set(Creek(357561a8-6ab1-4a62-8f70-cc1f966ae81b,Some(Point(1420.5015499816263,1127.182537215735))))
+
+  - Starting tile: (145,44)
+
+## Objectives
+  - PLANK     : 500
+  - FUR       : 3000
+  - GLASS     : 15
+
+## Running championship with the following players
+  - ISLAC
+
+# Successful simulations
+
+## Playing bot delivered by ISLAC
+  - Remaining budget: 319
+  - Used men: 2
+  - Collected resources:
+    - FUR: 1660
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time: 30.601s
+[INFO] Finished at: Thu May 21 00:00:29 CEST 2015
+[INFO] Final Memory: 12M/173M
+[INFO] ------------------------------------------------------------------------
